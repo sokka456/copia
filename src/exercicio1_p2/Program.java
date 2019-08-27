@@ -15,7 +15,7 @@ public class Program
 		{
 			//br = new BufferedReader(new FileReader("/home/grievon/Documentos/Exercicios_Ivan/src/exercicio1_p2/filial.txt"));
 			ArrayList<String> lista = new ArrayList<String>();
-			FileInputStream fls = new FileInputStream("/home/grievon/Documentos/Exercicios_Ivan/src/exercicio1_p2/filial.txt");
+			FileInputStream fls = new FileInputStream("D:\\clonar\\JavaWeb\\src\\exercicio1_p2\\filial.txt");
 			FileReader line = null;
 			
 			/*
@@ -32,6 +32,7 @@ public class Program
 			
 			System.out.println(line.toString());
 			System.out.print(lista);
+			fls.close();
 		}
 		catch(Exception ex)
 		{
